@@ -1,0 +1,427 @@
+[
+  {
+    "name": "Ticker Symbol",
+    "nicknames": [],
+    "popularity": null,
+    "tag": "ticker",
+    "objectID": "ticker",
+    "type": "info",
+    "format": "string"
+  },
+  {
+    "name": "Short Description",
+    "nicknames": [],
+    "popularity": null,
+    "tag": "short_description",
+    "objectID": "short_description",
+    "type": "info",
+    "format": "string"
+  },
+  {
+    "name": "Long Description",
+    "nicknames": [],
+    "popularity": null,
+    "tag": "long_description",
+    "objectID": "long_description",
+    "type": "info",
+    "format": "string"
+  },
+  {
+    "name": "Chief Executive Officer",
+    "nicknames": ["CEO"],
+    "popularity": null,
+    "tag": "ceo",
+    "objectID": "ceo",
+    "type": "info",
+    "format": "string"
+  },
+  {
+    "name": "Company Website",
+    "nicknames": [],
+    "popularity": null,
+    "tag": "company_url",
+    "objectID": "company_url",
+    "type": "info",
+    "format": "string"
+  },
+  {
+    "name": "Beta",
+    "nicknames": [],
+    "popularity": null,
+    "tag": "beta",
+    "objectID": "beta",
+    "type": "info",
+    "format": "number"
+  },
+  {
+    "name": "Employee count",
+    "nicknames": ["people working for them", "Employees"],
+    "popularity": null,
+    "tag": "employees",
+    "objectID": "employees",
+    "type": "info",
+    "format": "number"
+  },
+  {
+    "name": "Analyst Target Price",
+    "nicknames": ["Target Price"],
+    "popularity": null,
+    "tag": "analyst_target_price",
+    "objectID": "analyst_target_price",
+    "type": "info"
+  },
+  {
+    "name": "Dividend per Share",
+    "nicknames": [],
+    "popularity": null,
+    "tag": "dividend",
+    "objectID": "dividend",
+    "type": "info"
+  },
+  {
+    "name": "Open Price",
+    "nicknames": [],
+    "popularity": null,
+    "tag": "open_price",
+    "objectID": "open_price",
+    "type": "prices"
+  },
+  {
+    "name": "High Price",
+    "nicknames": [],
+    "popularity": null,
+    "tag": "high_price",
+    "objectID": "high_price",
+    "type": "prices"
+  },
+  {
+    "name": "Low Price",
+    "nicknames": [],
+    "popularity": null,
+    "tag": "low_price",
+    "objectID": "low_price",
+    "type": "prices"
+  },
+  {
+    "name": "Close Price",
+    "nicknames": [],
+    "popularity": null,
+    "tag": "close_price",
+    "objectID": "close_price",
+    "type": "prices"
+  },
+  {
+    "name": "Volume",
+    "nicknames": ["shares traded"],
+    "popularity": null,
+    "tag": "volume",
+    "objectID": "volume",
+    "type": "prices"
+  },
+  {
+    "name": "Ex Dividend",
+    "nicknames": [],
+    "popularity": null,
+    "tag": "ex_dividend",
+    "objectID": "ex_dividend",
+    "type": "prices"
+  },
+  {
+    "name": "Change in Price",
+    "nicknames": [],
+    "popularity": null,
+    "tag": "change",
+    "objectID": "change",
+    "type": "prices"
+  },
+  {
+    "name": "Percent Change in Price",
+    "nicknames": [],
+    "popularity": null,
+    "tag": "percent_change",
+    "objectID": "percent_change",
+    "type": "prices",
+    "format": "percent"
+  },
+  {
+    "name": "52 Week High",
+    "nicknames": [],
+    "popularity": null,
+    "tag": "52_week_high",
+    "objectID": "52_week_high",
+    "type": "prices"
+  },
+  {
+    "name": "52 Week Low",
+    "nicknames": [],
+    "popularity": null,
+    "tag": "52_week_low",
+    "objectID": "52_week_low",
+    "type": "prices"
+  },
+  {
+    "name": "Next Earnings Date",
+    "nicknames": [],
+    "popularity": null,
+    "tag": "next_earnings_date",
+    "objectID": "next_earnings_date",
+    "type": "forecasts",
+    "format": "date"
+  },
+  {
+    "name": "Current Year Average Revenue Estimate",
+    "nicknames": ["estimated revenue", "revenue estimate"],
+    "popularity": null,
+    "tag": "current_yr_ave_revenue_est",
+    "objectID": "current_yr_ave_revenue_est",
+    "type": "forecasts"
+  },
+  {
+    "name": "Current Year Average EPS Estimate",
+    "nicknames": ["eps estimate", "estimated eps"],
+    "popularity": null,
+    "tag": "current_yr_ave_eps_est",
+    "objectID": "current_yr_ave_eps_est",
+    "type": "forecasts"
+  },
+  {
+    "name": "Market Capitalization",
+    "nicknames": [],
+    "popularity": null,
+    "tag": "marketcap",
+    "objectID": "marketcap",
+    "type": "valuation"
+  },
+  {
+    "name": "Enterprise Value",
+    "nicknames": ["ev"],
+    "popularity": null,
+    "tag": "enterprisevalue",
+    "objectID": "enterprisevalue",
+    "type": "valuation"
+  },
+  {
+    "name": "Price to Book Value",
+    "nicknames": [],
+    "popularity": null,
+    "tag": "pricetobook",
+    "objectID": "pricetobook",
+    "type": "valuation",
+    "format": "ratio"
+  },
+  {
+    "name": "Price to Revenue",
+    "nicknames": ["ratio of Price to Revenue"],
+    "popularity": null,
+    "tag": "pricetorevenue",
+    "objectID": "pricetorevenue",
+    "type": "valuation",
+    "format": "number",
+    "format": "ratio"
+  },
+  {
+    "name": "Price to Earnings Ratio",
+    "nicknames": ["pe ratio"],
+    "popularity": null,
+    "tag": "pricetoearnings",
+    "objectID": "pricetoearnings",
+    "type": "valuation",
+    "format": "ratio"
+  },
+  {
+    "name": "Short Interest",
+    "nicknames": [],
+    "popularity": null,
+    "tag": "short_interest",
+    "objectID": "short_interest"
+  },
+  {
+    "name": "Operating Revenue",
+    "nicknames": [],
+    "popularity": null,
+    "tag": "operatingrevenue",
+    "objectID": "operatingrevenue",
+    "type": "operating"
+  },
+  {
+    "name": "Total Revenue",
+    "nicknames": ["revenue"],
+    "popularity": null,
+    "tag": "totalrevenue",
+    "objectID": "totalrevenue",
+    "type": ""
+  },
+  {
+    "name": "Total Gross Profit",
+    "nicknames": [],
+    "popularity": null,
+    "tag": "totalgrossprofit",
+    "objectID": "totalgrossprofit",
+    "type": ""
+  },
+  {
+    "name": "Marketing Expense",
+    "nicknames": ["ad spend", "marketing expenditure"],
+    "popularity": null,
+    "tag": "marketingexpense",
+    "objectID": "marketingexpense",
+    "type": "operating"
+  },
+  {
+    "name": "Total Operating Income",
+    "nicknames": [],
+    "popularity": null,
+    "tag": "totaloperatingincome",
+    "objectID": "totaloperatingincome",
+    "type": ""
+  },
+  {
+    "name": "Interest Expense",
+    "nicknames": [],
+    "popularity": null,
+    "tag": "totalinterestexpense",
+    "objectID": "totalinterestexpense",
+    "type": "nonoperating"
+  },
+  {
+    "name": "Interest and Investment Income",
+    "nicknames": [],
+    "popularity": null,
+    "tag": "totalinterestincome",
+    "objectID": "totalinterestincome",
+    "type": "nonoperating"
+  },
+  {
+    "name": "Income Tax Expense",
+    "nicknames": [],
+    "popularity": null,
+    "tag": "incometaxexpense",
+    "objectID": "incometaxexpense",
+    "type": ""
+  },
+  {
+    "name": "Basic Earnings per Share",
+    "nicknames": ["eps"],
+    "popularity": null,
+    "tag": "basiceps",
+    "objectID": "basiceps",
+    "type": ""
+  },
+  {
+    "name": "Cash and Equivalents",
+    "nicknames": ["total cash", "cash on hand"],
+    "popularity": null,
+    "tag": "cashandequivalents",
+    "objectID": "cashandequivalents",
+    "type": "operating"
+  },
+  {
+    "name": "Accounts Receivable",
+    "nicknames": [],
+    "popularity": null,
+    "tag": "accountsreceivable",
+    "objectID": "accountsreceivable",
+    "type": "operating"
+  },
+  {
+    "name": "Prepaid Expenses",
+    "nicknames": [],
+    "popularity": null,
+    "tag": "prepaidexpenses",
+    "objectID": "prepaidexpenses",
+    "type": "operating"
+  },
+  {
+    "name": "Total Assets",
+    "nicknames": [],
+    "popularity": null,
+    "tag": "totalassets",
+    "objectID": "totalassets",
+    "type": ""
+  },
+  {
+    "name": "Short-Term Debt",
+    "nicknames": [],
+    "popularity": null,
+    "tag": "shorttermdebt",
+    "objectID": "shorttermdebt",
+    "type": "nonoperating"
+  },
+  {
+    "name": "Accounts Payable",
+    "nicknames": [],
+    "popularity": null,
+    "tag": "accountspayable",
+    "objectID": "accountspayable",
+    "type": "operating"
+  },
+  {
+    "name": "Long Term Debt",
+    "nicknames": ["long term debt"],
+    "popularity": null,
+    "tag": "longtermdebt",
+    "objectID": "longtermdebt",
+    "type": "nonoperating"
+  },
+  {
+    "name": "Total Liabilities",
+    "nicknames": [],
+    "popularity": null,
+    "tag": "totalliabilities",
+    "objectID": "totalliabilities",
+    "type": ""
+  },
+  {
+    "name": "Consolidated Net Income or Loss",
+    "nicknames": ["net income", "net loss"],
+    "popularity": null,
+    "tag": "netincome",
+    "objectID": "netincome",
+    "type": ""
+  },
+  {
+    "name": "Acquisitions",
+    "nicknames": [],
+    "popularity": null,
+    "tag": "acquisitions",
+    "objectID": "acquisitions",
+    "type": ""
+  },
+
+  {
+    "name": "Book Value per Share",
+    "nicknames": [],
+    "popularity": null,
+    "tag": "bookvaluepershare",
+    "objectID": "bookvaluepershare",
+    "type": "metric"
+  },
+
+  {
+    "name": "Gross Margin",
+    "nicknames": ["margins"],
+    "popularity": null,
+    "tag": "grossmargin",
+    "objectID": "grossmargin",
+    "type": "profitability",
+    "format": "percent"
+  },
+  {
+    "name": "Revenue Growth",
+    "nicknames": [],
+    "popularity": null,
+    "tag": "revenuegrowth",
+    "objectID": "revenuegrowth",
+    "type": "growth",
+    "format": "percent"
+  },
+  {
+    "name": "EPS Growth",
+    "nicknames": [],
+    "popularity": null,
+    "tag": "epsgrowth",
+    "objectID": "epsgrowth",
+    "type": "growth",
+    "format": "percent"
+  }
+]
