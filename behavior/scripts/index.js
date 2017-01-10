@@ -63,7 +63,10 @@ if (moment().utc().hour() < 8) {
 // Typically the handle function would run the logic invocation directly.
 // ----------------------------------------------------------------------------------
 exports.handle = function handle(client) {
-  exports.runLogicInvocation(client)
+    exports.runLogicInvocation(client)
+}
+
+exports.handle = function runLogicInvocation(client) {
   const env = client.getEnvironment()
   // const imgixClient = new ImgixClient({
   //   host: env.imgix.host,
