@@ -74,6 +74,7 @@ exports.handle = function runLogicInvocation(client) {
   //   host: env.imgix.host,
   //   secureURLToken: env.imgix.token,
   // })
+  console.log (">>>>", env)
   const intrinioClient = intrinio.create(env.intrinio.username, env.intrinio.password)
 
   // Dependencies to share between steps
