@@ -32,43 +32,43 @@ if (moment().utc().hour() < 8) {
 // This uses Pusher to emit data for remote display and is for demonstration only
 // See: https://pusher.com/
 // ----------------------------------------------------------------------------------
-function emitClientOverPusher(client, next) {
-  const env = client.getEnvironment()
-
-  const pusherClient = new Pusher({
-    appId: env.pusher.appId,
-    key: env.pusher.key,
-    secret: env.pusher.secret,
-    encrypted: true,
-  })
-
-  const pusherEvent = {
-    messagePart: client.getMessagePart(),
-  }
-
-  const smoochUserID = client.getMessagePart().sender.remote_id
-  const channelName = `smooch-user-${smoochUserID}`
-
-  pusherClient.trigger(channelName, 'messagePart', pusherEvent, (error) => {
-    if (error) {
-      console.error('Error sending event to Pusher', error)
-    }
-
-    next()
-  })
-}
+// function emitClientOverPusher(client, next) {
+//   const env = client.getCurrentApplicationEnvironment()
+//
+//   const pusherClient = new Pusher({
+//     appId: env.pusher.appId,
+//     key: env.pusher.key,
+//     secret: env.pusher.secret,
+//     encrypted: true,
+//   })
+//
+//   const pusherEvent = {
+//     messagePart: client.getMessagePart(),
+//   }
+//
+//   const smoochUserID = client.getMessagePart().sender.remote_id
+//   const channelName = `smooch-user-${smoochUserID}`
+//
+//   pusherClient.trigger(channelName, 'messagePart', pusherEvent, (error) => {
+//     if (error) {
+//       console.error('Error sending event to Pusher', error)
+//     }
+//
+//     next()
+//   })
+// }
 
 // ----------------------------------------------------------------------------------
 // This demo emits data over Pusher to external resources for display.
 // Typically the handle function would run the logic invocation directly.
 // ----------------------------------------------------------------------------------
-exports.handle = function handle(client) {
-  emitClientOverPusher(client, () => {
-    exports.runLogicInvocation(client)
-  })
-}
+// exports.handle = function handle(client) {
+//   // emitClientOverPusher(client, () => {
+//     exports.runLogicInvocation(client)
+//   // })
+// }
 
-exports.runLogicInvocation = function runLogicInvocation(client) {
+exports.handle = function runLogicInvocation(client) {
   const env = client.getEnvironment()
   // const imgixClient = new ImgixClient({
   //   host: env.imgix.host,
