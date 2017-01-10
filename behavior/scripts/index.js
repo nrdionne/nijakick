@@ -62,13 +62,8 @@ if (moment().utc().hour() < 8) {
 // This demo emits data over Pusher to external resources for display.
 // Typically the handle function would run the logic invocation directly.
 // ----------------------------------------------------------------------------------
-// exports.handle = function handle(client) {
-//   // emitClientOverPusher(client, () => {
-//     exports.runLogicInvocation(client)
-//   // })
-// }
-
-exports.handle = function runLogicInvocation(client) {
+exports.handle = function handle(client) {
+  exports.runLogicInvocation(client)
   const env = client.getEnvironment()
   // const imgixClient = new ImgixClient({
   //   host: env.imgix.host,
