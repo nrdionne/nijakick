@@ -3,7 +3,7 @@
 const moment = require('moment')
 
 const Pusher = require('pusher')
-const ImgixClient = require('imgix-core-js')
+// const ImgixClient = require('imgix-core-js')
 
 const intrinio = require('./lib/intrinio')
 const companyDB = require('./lib/companies.js')
