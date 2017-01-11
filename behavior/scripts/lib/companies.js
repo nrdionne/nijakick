@@ -2,7 +2,7 @@
 
 exports.searchForCompanyByTicker = function searchForCompanyByTicker(algoliaClient, ticker, callback) {
 	const upperTicker = ticker.trim().toUpperCase()
-	const companyIndex = algoliaClient.initIndex('FinChat-Companies-Staging')
+	const companyIndex = algoliaClient.initIndex('Northout-Companies-Staging')
 
 	companyIndex.search(upperTicker, {getRankingInfo: true}, (err, content) => {
 		if (err) {
