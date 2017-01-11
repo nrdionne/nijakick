@@ -1,7 +1,7 @@
 'use strict'
 
 exports.searchForDatapoint = function searchForDatapoint(algoliaClient, query, callback) {
-	const datapointIndex = algoliaClient.initIndex('northout_FinChat-DataPoints')
+	const datapointIndex = algoliaClient.initIndex('staging_FinChat-DataPoints')
 
 	datapointIndex.search(query, (err, content) => {
 		if (err) {

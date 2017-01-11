@@ -79,7 +79,6 @@ exports.handle = function runLogicInvocation(client) {
   const dependencies = {
     responseDateFormat: responseDateFormat,
     intrinioClient: intrinioClient,
-    // imgixClient: imgixClient,
     tryParseFirstTime: require('./lib/slotutil/tryParseFirstTime'),
     companyDB: companyDB,
     datapointDB: datapointDB,

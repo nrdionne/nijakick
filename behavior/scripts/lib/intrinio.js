@@ -19,7 +19,8 @@ class IntrinioClient {
       query: query || {},
     })
 
-    console.log('GETting', requestUrl)
+    console.log('>>> GETting', requestUrl)
+    console.log('>>> ', this.username, this.password)
 
     request({
       url: requestUrl,
